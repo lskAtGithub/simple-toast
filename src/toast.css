@@ -1,0 +1,32 @@
+:root {
+  --Toast--offset-y: -20px;
+}
+.fade-in {
+  animation: fadeIn 400ms ease-out forwards;
+}
+
+.fade-out {
+  animation: fadeOut 400ms ease-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    transform: translateX(-50%) translateY(var(--Toast--offset-y));
+    opacity: 0.1;
+  }
+  to {
+    transform: translateX(-50%) translateY(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    transform: translateX(-50%) translateY(0px);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(-50%) translateY(var(--Toast--offset-y));
+    opacity: 0.1;
+  }
+}
