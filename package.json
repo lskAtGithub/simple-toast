@@ -4,11 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
+    "build": "vite build"
   },
   "devDependencies": {
+    "@rollup/plugin-typescript": "^11.1.6",
     "typescript": "^5.2.2",
     "vite": "^5.0.8"
   }
