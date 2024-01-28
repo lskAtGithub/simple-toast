@@ -1,11 +1,16 @@
 {
-  "name": "simple-toast",
+  "name": "simple-message-toast",
   "version": "1.0.0",
-  "type": "module",
+  "main": "dist/my-lib.umd.js",
+  "module": "dist/my-lib.js",
   "scripts": {
     "build": "vite build"
   },
+  "files": [
+    "dist"
+  ],
   "devDependencies": {
+    "@rollup/plugin-babel": "^6.0.4",
     "@rollup/plugin-typescript": "^11.1.6",
     "tslib": "^2.6.2",
     "typescript": "^5.2.2",
