@@ -1,9 +1,9 @@
 {
   "name": "simple-message-toast",
-  "version": "1.0.1",
-  "main": "dist/my-lib.umd.js",
-  "module": "dist/my-lib.js",
-  "types": "dist/types/index.d.ts",
+  "version": "1.0.2",
+  "main": "lib/my-lib.umd.js",
+  "module": "lib/my-lib.js",
+  "types": "lib/types/index.d.ts",
   "scripts": {
     "build": "vite build"
   },
