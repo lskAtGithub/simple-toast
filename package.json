@@ -1,6 +1,6 @@
 {
   "name": "simple-message-toast",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "lib/my-lib.umd.js",
   "module": "lib/my-lib.js",
   "types": "lib/types/index.d.ts",
@@ -8,7 +8,7 @@
     "build": "vite build"
   },
   "files": [
-    "dist"
+    "lib"
   ],
   "devDependencies": {
     "@rollup/plugin-babel": "^6.0.4",
