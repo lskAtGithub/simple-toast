@@ -13,6 +13,7 @@ export default defineConfig({
     }),
   ],
   build: {
+    outDir: 'lib',
     lib: {
       entry: 'src/index.ts',
       name: 'MyLib',
@@ -21,6 +22,9 @@ export default defineConfig({
     },
     rollupOptions: {
       external: [/\.es\.js$/],
+      output: {
+        assetFileNames: 'css/[name].css',
+      },
     },
   },
 })
